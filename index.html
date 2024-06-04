@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0 user-scalable=no">
+            <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="estilo.css">
+        <title>Portafolio | XiomaraDB</title>
+    </head>
+
+    <body>
+        <!-- SECCION I N I C I O -->
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1><3</h1>
+                        <nav id="nav" class>
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado"
+                                        onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#sobremi"
+                                        onclick="seleccionar(this)">SOBRE
+                                        MI</a></li>
+                                <li><a href="#servicios"
+                                        onclick="seleccionar(this)">SERVICIOS</a></li>
+                                <li><a href="#portfolio"
+                                        onclick="seleccionar(this)">PROYECTOS</a></li>
+                                <li><a href="#contacto"
+                                        onclick="seleccionar(this)">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- Icono del menu responsive -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+
+                        <div class="redes">
+                            <a target="_blank" href="https://www.linkedin.com/in/xioworktoworld/"><i class="fa-brands fa-linkedin" ></i></a>
+                            <a  target="_blank" href="https://github.com/XiomaraIduque"><i class="fa-brands fa-github"></i></a>
+                            <a  target="_blank" href="https://www.instagram.com/xiomaraduquee/?hl=es"><i class="fa-brands fa-instagram-square"></i></a>
+                        </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Bienvenido</p>
+                    <h2>Soy <span>Xiomara Duque</span>, Desarrolladora Frontend
+                    </h2>
+                    <p class="descripcion">¡Hola! Bienvenido a mi portafolio. Me
+                        emociona que conozcas un poco de mis habilidades y
+                        conocimientos.</p>
+                    <a href="#portfolio">Ir a Portafolio</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION S O B R E M I -->
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="img/yop.jpeg" alt>
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre Mi</p>
+                <h2>Hola, Soy <span>Xiomara Duque</span> </h2>
+                <h3>Desarrolladora Frontend</h3>
+                <p>Soy una apasionada desarrolladora frontend especializada en
+                    HTML, CSS, JavaScript y React. <br> Mi enfoque es crear
+                    interfaces de usuario atractivas y funcionales, combinando
+                    estética y funcionalidad para desarrollar aplicaciones web
+                    fáciles de usar. <br>Sólidos conocimientos en diseño de
+                    experiencia de usuario (UX), me aseguro de que las
+                    interfaces sean visualmente atractivas y altamente
+                    usables.</p>
+                <a href="/Pdf/CV_Xiomara.Duque.pdf">Visualizar mi CV</a>
+            </div>
+        </section>
+
+        <!-- SECCION S E R V I C I O S -->
+        <section id="servicios">
+            <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                    <h4>Diseño de Sitios Web</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Frontend</li>
+
+                    </ul>
+                    <p>Con mi enfoque centrado en el usuario, creo sitios web
+                        atractivos y funcionales.</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i
+                            class="fa-solid fa-file-code"></i></span>
+                    <h4>Programación JavaScript</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>frontend</li>
+                        <li>Backend</li>
+                    </ul>
+                    <p>Con este lenguaje JavaScript. Convierto tus ideas en
+                        experiencias digitales únicas y cautivadoras</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i
+                            class="fa-solid fa-database"></i></span>
+                    <h4>Alojamiento de Sitios</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Backend</li>
+                    </ul>
+                    <p>Garantizo que tu sitio y datos estén siempre disponibles
+                        y funcionando sin problemas, ya sea noSQL o
+                        relacionables</p>
+                </div>
+
+            </div>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono"><i
+                            class="fa-solid fa-arrow-trend-up"></i></span>
+                    <h4>Posicionamiento SEO</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>frontend</li>
+                        <li>Backend</li>
+                    </ul>
+                    <p>Con esto hará que tu proyecto en la web, sea usable y
+                        obtenga más visitantes y clientes. Implementando
+                        reglas</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i
+                            class="fa-solid fa-palette"></i></span>
+                    <h4>Diseñadora Gráfica UX</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Frontend</li>
+                    </ul>
+                    <p>Mi objetivo es conectar personas a través del diseño.</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i
+                            class="fa-solid fa-person-circle-question"></i></span>
+                    <h4>Desarrollo con CMS</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Frontend</li>
+                    </ul>
+                    <p>De una manera mas rápida, el objetivo es implementar esta
+                        plataforma en tus proyectos</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION H A B I L I D A D E S -->
+        <div class="contenedor-skills" id="skills">
+            <h3>HABILIDADES </h3>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Html & Css</p>
+                    <span class="porcentaje">100%</span>
+                </div>
+
+                <div class="barra">
+                    <div class id="html"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Javascript</p>
+                    <span class="porcentaje">80%</span>
+                </div>
+
+                <div class="barra">
+                    <div class id="js"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Git | GitHub</p>
+                    <span class="porcentaje">80%</span>
+                </div>
+
+                <div class="barra">
+                    <div class id="gh"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>React js</p>
+                    <span class="porcentaje">65%</span>
+                </div>
+
+                <div class="barra">
+                    <div class id="rj"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Bases de Datos (ApIs)</p>
+                    <span class="porcentaje">75%</span>
+                </div>
+
+                <div class="barra">
+                    <div class id="bd"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Figma (En proceso)</p>
+                    <span class="porcentaje">25%</span>
+                </div>
+
+                <div class="barra">
+                    <div class id="fg"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Wordpress (En proceso)</p>
+                    <span class="porcentaje">15%</span>
+                </div>
+
+                <div class="barra">
+                    <div class id="wp"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCION PORTAFOLIO -->
+        <section id="portfolio">
+            <h3 class="titulo-seccion">Mis Proyectos</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto1.png" alt>
+                    <div class="info">
+                        <h4>Xiomy Cosmetics</h4>
+                        <p>Proyecto técnico bachillerato (PHP)</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto2.png" alt>
+                    <div class="info">
+                        <h4>Vanidosa salón y Spa</h4>
+                        <p>Proyecto técnologico (MERN)</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto3.png" alt>
+                    <div class="info">
+                        <h4>E-commerce Pandora's</h4>
+                        <p>Proyecto voluntario</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto4.png" alt>
+                    <div class="info">
+                        <h4>Clima world</h4>
+                        <p>Proyecto voluntario</p>
+                    </div>
+                </div>
+                
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto6.png" alt>
+                    <div class="info">
+                        <h4>Rick and morty</h4>
+                        <p>Proyecto voluntario</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto5.png" alt>
+                    <div class="info">
+                        <h4>Gestion de empleados (React, SQL)</h4>
+                        <p>En proceso</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- SECCTION C O N T A C T O
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section> -->
+
+        <!-- SECCION FOOTER -->
+        <footer id="contacto">
+            <p>Puedes contactarme por varios medios de comunicación</p>
+            <div class="redes">
+                <a href="https://api.whatsapp.com/send?phone=3005981431"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:xiomaraduque.developer@gmail.com?"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://t.me/Xiiooooooo"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
