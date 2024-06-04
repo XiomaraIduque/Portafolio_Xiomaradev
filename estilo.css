@@ -603,7 +603,7 @@
 
         @media screen and (max-width: 800px) {
             .redes {
-                display: none;
+                display: block;
             }
 
             nav {
