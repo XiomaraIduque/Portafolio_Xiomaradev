@@ -154,11 +154,14 @@
         }
 
         #sobremi .contenedor-foto img {
-            padding: 20px;
+            padding: 4px;
             width: 100%;
+            height: 80%;
             border-radius: 20px;
             background-color: #f3f3f3;
         }
+
+
 
         #sobremi .sobremi {
             margin: 0 40px;
